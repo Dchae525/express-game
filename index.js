@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 300
+const port = 3333
 const path = require('path')
 
 app.get('/puppy', (req, res) => {
